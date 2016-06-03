@@ -54,14 +54,22 @@
 		479C39B81D01CACE001DB17D /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				479C39B91D01CACE001DB17D /* AppDelegate.swift */,
 				479C39BB1D01CACE001DB17D /* ViewController.swift */,
 				479C39BD1D01CACE001DB17D /* Main.storyboard */,
+				479C39CB1D01CB53001DB17D /* Supporting Files */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		479C39CB1D01CB53001DB17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479C39B91D01CACE001DB17D /* AppDelegate.swift */,
 				479C39C01D01CACE001DB17D /* Assets.xcassets */,
 				479C39C21D01CACE001DB17D /* LaunchScreen.storyboard */,
 				479C39C51D01CACE001DB17D /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					479C39B51D01CACE001DB17D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8FHYX3H57A;
 					};
 				};
 			};
@@ -251,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fletch.Calculator;
@@ -262,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fletch.Calculator;
